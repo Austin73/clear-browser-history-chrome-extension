@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clear History and Cache</title>
+  <style>
+    body {
+      width: 250px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Clear History and Cache</h3>
+  <label for="days">Clear history up to (days ago):</label>
+  <input type="number" id="days" min="1" value="7">
+  <button id="clearBtn">Clear</button>
+  <br>
+  <button id="clearAllBtn">Clear All</button>
+
+  <script src="popup.js"></script>
+  <div id="message"></div>
+</body>
+</html>
